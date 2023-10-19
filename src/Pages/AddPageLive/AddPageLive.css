@@ -1,0 +1,8 @@
+.home-navbar{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    align-items: center;
+    color: white;
+    height: 50px;
+}

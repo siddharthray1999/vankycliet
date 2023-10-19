@@ -1,0 +1,70 @@
+.rolex-div {
+  background: #333;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-rolex {
+  margin-left: 2rem;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+.rolex-pts {
+  margin-right: 2rem;
+  font-size: 20px;
+  color: white;
+  font-weight: 400;
+}
+.rolex-pts > span {
+  color: aqua;
+}
+.casino-type {
+  display: flex;
+  align-items: center;
+ 
+  margin: 10px;
+  background: #333;
+  height: 60px;
+}
+.casino-hub {
+  margin-left: 2rem;
+  font-size: 15px;
+  color: white;
+}
+
+.old-diamond {
+  margin-left: 1rem;
+  font-size: 15px;
+  color: white;
+}
+
+.casino-add-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  margin: 20px;
+}
+.card-body {
+    text-align: center;
+    color: white;
+    background: #4b4b4b;
+    padding: 0rem;
+  }
+  .card-title {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  .card-title:hover{
+    text-decoration: underline;
+  }
+  @media (max-width: 900px) {
+    .casino-add-card{
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }

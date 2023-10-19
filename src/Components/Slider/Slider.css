@@ -1,0 +1,16 @@
+.slider-main-div {
+  width: 44%;
+  margin-left: 2rem;
+}
+.carousel-indicators [data-bs-target] {
+  width: 7px;
+  height: 7px;
+  border-radius: 25px;
+}
+@media (max-width: 900px) {
+  .slider-main-div {
+    width: 100%;
+    margin-left: 0rem;
+    z-index: 1;
+  }
+}

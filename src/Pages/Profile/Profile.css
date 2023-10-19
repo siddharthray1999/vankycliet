@@ -1,0 +1,68 @@
+.profile-main {
+  margin-top: 1rem;
+  width: 83%;
+  margin-left: 1rem;
+  border: 3px solid #289ab1;
+  height: 461px;
+}
+
+.rate-info {
+  text-align: center;
+  background: black;
+  font-size: 15px;
+  color: #fcce34;
+  padding: 7px;
+}
+.rate-main {
+  background: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.rate-differ {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.upt-btn {
+  background: #0d9a23c9;
+  color: #fcce34;
+  border: none;
+  border-radius: 2px;
+  padding: 6px;
+}
+.per-info {
+  text-align: center;
+  background: black;
+  font-size: 15px;
+  color: #fcce34;
+  padding: 7px;
+}
+.com-info {
+  text-align: center;
+  background: black;
+  font-size: 15px;
+  color: #fcce34;
+  padding: 7px;
+  margin-top: -16px;
+}
+
+.table-name,
+.company-contact {
+  background: white;
+}
+.company-contact > tr > td {
+  color: green;
+  font-weight: 700;
+}
+.table-name > tr > td {
+  color: black;
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .profile-main {
+    width: auto;
+    margin: 0;
+  }
+}
